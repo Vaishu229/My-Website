@@ -1,0 +1,124 @@
+body{
+    background-color: black;
+    margin: 0%;
+}
+
+section{
+    margin-bottom: 200px;
+}
+
+    /* header*/
+.header{
+    background-color: white;
+}
+
+h1{
+    font-size: 5rem;
+    margin-top: 300px;
+}
+
+.gabriela-regular {
+  font-family: "Gabriela", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header p{
+    font-size: 3.5rem;
+    color: black;
+}
+
+.niconne-regular {
+  font-family: "Niconne", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.start{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px 400px;
+    width: 100%;
+}
+.start div{
+    grid-area: 1/2/2/5;
+}
+
+.birds-flock1{
+    height: 400px;
+}
+
+.birds-flock2{
+    grid-area: 2/2/3/4;
+    text-align: right;
+    grid-column-start: end;
+    height: 400px;
+}
+
+span{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 4px;
+}
+    /* header*/
+
+    /* resume */
+
+.self-img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.resume{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    font-size: 3.5rem;
+}
+
+.resume h2{
+    margin-bottom: 0%;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+   /* resume */
+
+   /*skills*/
+.section2{
+    text-align: center;
+}
+
+section  h2,p{
+    color: white;
+}
+
+svg{
+    color: white;
+}
+
+.skills{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+}
+    /*skills*/
+
+    /*contact*/
+
+.contact{
+    text-align: center;
+}
+
+    /*footer*/
+footer{
+    color: white;
+    text-align: right;
+}
+    /*footer*/
